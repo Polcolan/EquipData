@@ -1,0 +1,188 @@
+/*Login*/
+body {
+    margin: 0;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    font-size: large;
+    background-color: #ee680f;
+    
+}
+.form p{
+    text-align: center;
+}
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+input, button, select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button {
+    background-color: #010911;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #e9551afd;
+}
+a{
+    color: #ffffff;
+    
+}
+
+.Error{
+    color: rgb(253, 250, 250);
+   font-size:  bold;
+}
+.Link{
+    text-align: center;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    background-color: #fff; 
+}
+/*Css Salas*/
+.custom-navbar {
+    background-image: linear-gradient(to right, rgb(255, 102, 0), rgb(241, 104, 12),White);
+   
+}
+.custom-navbar .navbar-brand {
+    color: black;
+}
+.custom-navbar .navbar-toggler-icon.custom-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-menu'%3e%3cline x1='3' y1='12' x2='21' y2='12'%3e%3c/line%3e%3cline x1='3' y1='6' x2='21' y2='6'%3e%3c/line%3e%3cline x1='3' y1='18' x2='21' y2='18'%3e%3c/line%3e%3c/svg%3e");
+    background-color: transparent !important;
+}
+
+body{
+    background-color: #ff5e00;
+    
+}
+.escudo {
+    display: flex;
+    align-items: center;
+}
+
+.escudo img {
+    max-width: 40%;
+    max-height: 100%;
+}
+.icono {
+    width: 32px;
+    height: 32px;
+    margin-right: 50px;
+    color: black;;
+}
+.notificacion {
+    display: none;
+    position: absolute;
+    top: 50px; /* ajusta la posición vertical según necesites */
+    right: 20px; /* ajusta la posición horizontal según necesites */
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#notificacion-checkbox:checked ~ .notificacion {
+    display: block;
+}
+.notificacion {
+    display: none;
+    position: absolute;
+    top: 50px; /* ajusta la posición vertical según necesites */
+    right: 20px; /* ajusta la posición horizontal según necesites */
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#notificacion-checkbox:checked ~ .notificacion {
+    display: block;
+}
+.btn{
+   background-color: #ff5e00
+}.row {
+        display: flex;
+        background: #ffffff;
+
+    }
+    .navbar-2 {
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
+
+    }
+    
+    .navbar-2 .col {
+        margin: 0 10px; /* Ajusta el espaciado entre los iconos según sea necesario */
+        justify-content: center;
+         
+        
+    }
+    
+    .navbar-2 .btn {
+        width: auto; /* Ajusta el ancho del botón según el contenido */
+    }
+    .btn-warning{
+            width: 32px;
+            height: 32px;
+            margin-right: 200px;
+            color: black;;
+    }
+    .card {
+        margin-bottom: 20px; 
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px; 
+    }
+    .submitS{
+        background-color: #010911;
+        color: #fff;
+    }
+    /*Perfil*/
+    .profile-container {
+        margin-top: 80px; /* Ajusta el valor según sea necesario */
+        text-align: center;
+        padding: 20px;
+    }
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .profile-name {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .profile-role {
+        font-size: 18px;
+        color: #666;
+    }
+    .navbar-2{
+        margin-top: 250px;
+    }

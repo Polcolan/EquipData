@@ -1,0 +1,129 @@
+.custom-navbar {
+  background-image: linear-gradient(to right, rgb(255, 102, 0), white);
+}
+
+.custom-navbar .navbar-brand {
+  color: black;
+}
+
+.custom-navbar .navbar-toggler-icon.custom-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-menu'%3e%3cline x1='3' y1='12' x2='21' y2='12'%3e%3c/line%3e%3cline x1='3' y1='6' x2='21' y2='6'%3e%3c/line%3e%3cline x1='3' y1='18' x2='21' y2='18'%3e%3c/line%3e%3c/svg%3e");
+  background-color: transparent !important;
+}
+
+body {
+  background-color: #ff5e00;
+}
+
+.escudo img {
+  max-width: 40%;
+  max-height: 100%;
+}
+.Logo img {
+  max-height: 50px;
+  max-width: 100%; 
+  object-fit: contain; 
+  padding: 10px; /
+}
+.icono {
+  width: 32px;
+  height: 32px;
+  margin-right: 50px;
+  color: black;
+}
+
+.notificacion {
+  display: none;
+  position: absolute;
+  top: 50px; 
+  right: 20px; 
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#notificacion-checkbox:checked ~ .notificacion {
+  display: block;
+}
+.offcanvas-body .nav-link {
+  color: white; /* Cambia el color del texto a blanco */
+}
+
+
+.navbar {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Equipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+  flex-direction: row;
+  padding: auto;
+}
+
+.card {
+  margin-bottom: 5px; 
+  margin-right: 5px; 
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.btn-primary {
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn {
+  background-color: #ff5e00;
+  width: auto;
+}
+
+.navbar-2 {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  background-color: white; /* Fondo blanco */
+  padding: 20px 0; /* Espacio de relleno para separar los botones */
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Ancho al 100% */
+  height: 50px; /* Largo de la barra */
+  left: 0; /* Extiende desde el borde izquierdo */
+  right: 0; /* Extiende desde el borde derecho */
+}
+
+.navbar-2 .col {
+  margin: 0 30px; /* Margen entre los botones */
+}
+
+.navbar-2 .col:first-child {
+  margin-left: 150px; /* Empuja el primer botón hacia la izquierda */
+}
+
+.navbar-2 .col:last-child {
+  margin-right: 150px; /* Empuja el último botón hacia la derecha */
+}
+.Success {
+  color: rgb(240, 241, 240);
+  font-weight: bold;
+}

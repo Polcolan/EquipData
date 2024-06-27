@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/front/Css/css.css">
+    <link rel="stylesheet" href="/front/Css/responsive.css">
+    
+</head>
+<body>
+    <main>
+    <form id="form" class="form">
+        <h1>Crear Cuenta</h1>
+        <p>Crea tus credenciales para poder iniciar sesion </p>
+        <div>
+            <label for="Correo" class="label">Correo</label>
+            <input type="text" name="Correo" id="Correo" placeholder="Ingresa un Correo">
+        </div>
+        <div>
+            <label for="Nombre" class="label">Nombres completos</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre completo">
+        </div>
+        <div>
+            <label for="Contraseña"class="label">Contraseña</label>
+            <input type="password" name="Contraseña" id="Contrasena" placeholder="Ingresa una contraseña que no olvidaras">
+        </div>
+        <div>
+            <label for="Rol" class="label">Rol</label>
+            <select name="Rol" id="Rol" >
+                <option value="" disabled selected>seleccione su rol</option>
+                <option value="admind" >admind</option>
+                <option value="Soporte">Soporte</option>
+                <option value="Lector">Lector</option>
+            </select>
+        </div>
+        
+        <button id="submit "type="submit">Inicio de sesion</button>
+        <p id="error-message" class="Error"></p>
+     </form>
+     <p>Ya esta Registrado? <a href="/front/Html/Login.html">inicia sesion</a></p>
+    </main>
+    <script src="/front/Js/main.js"></script>
+</body>
+</html>

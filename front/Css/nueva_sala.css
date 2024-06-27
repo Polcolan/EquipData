@@ -1,0 +1,85 @@
+.custom-navbar {
+    background-image: linear-gradient(to right, rgb(255, 102, 0),White);
+   
+}
+.custom-navbar .navbar-brand {
+    color: black;
+}
+.offcanvas-body .nav-link {
+  color: white; 
+}
+
+body{
+    background-color: #ff5e00;
+    
+}
+.Logo img {
+  max-height: 50px;
+  max-width: 100%; 
+  object-fit: contain; 
+  padding: 10px; /
+}
+
+    
+form {
+    width: 90%;
+    max-width: 300px; /* Ancho máximo del formulario */
+    ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5e00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    form {
+        margin: 10px;
+        padding: 15px;
+    }
+
+   
+    button {
+        padding: 10px;
+    }
+}
+  
+  .navbar-2 {
+    display: flex; /* Utiliza el modelo de caja flexible para los elementos hijos */
+    background-color: #f8f9fa; /* Color de fondo de la barra de navegación */
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+ }
+.navbar-2 .btn {
+  display: inline-flex; /* Los elementos internos se alinean en línea y utilizan flexbox */
+  align-items: center; /* Centra el contenido verticalmente */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  padding: 10px; /* Espaciado interno alrededor del contenido */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #ff5e00; /* Color de fondo del botón */
+  color: #0f0f0f; /* Color del texto e iconos */
+    position: fixed;
+}
+.navbar-2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Ancho al 100% */
+  height: 50px; /* Largo de la barra */
+  left: 0; /* Extiende desde el borde izquierdo */
+  right: 0; /* Extiende desde el borde derecho */
+}
+
+.navbar-2 .col:first-child {
+  margin-left: 100px; /* Empuja el primer botón hacia la izquierda */
+}
+.navbar-2 .col:last-child {
+  margin-right: 100px; /* Empuja el último botón hacia la derecha */
+}
